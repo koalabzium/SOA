@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+   <h:head><title>Sklep</title></h:head>
+   <h:body>
+      <h:form>
+         Imie: <h:inputText value="#{Client.name}" required="true"/><br/>
+         e-mail: <h:inputText value="#{Client.email}"/><br/>
+         Wiek: <h:inputText value="#{Client.age}">
+         <f:validateDoubleRange maximum="120" minimum="10"/>
+      </h:inputText><br/>
+         Płeć:
+         <h:selectOneMenu value="#{Client.gender}" >
+            <f:ajax event="change" listener="#{commercials.changedGender}" render="choose"/>
+            <f:selectItem itemValue="o" itemLabel="Niebinarna"/>
+            <f:selectItem itemValue="f" itemLabel="Żeńska"></f:selectItem>
+            <f:selectItem itemValue="m" itemLabel="Męska"/>
+
+         </h:selectOneMenu><br/>
+         Edukacja:
+         <h:selectOneMenu value="#{Client.edu}">
+            <f:selectItem itemValue="Podstawowa" itemLabel="Podstawowa"/>
+            <f:selectItem itemValue="Średnia" itemLabel="Średnia"/>
+            <f:selectItem itemValue="Wyższa" itemLabel="Wyższa"/>
+         </h:selectOneMenu>
+         <br/>
+         Wzrost:
+            <h:inputText  value="#{Client.height}" required="true" id="height">
+               <f:attribute name="gender" value="#{Client.gender}"/>
+               <f:validator validatorId="HeightValidator"/>
+            </h:inputText>
+         <h:message for="height" style="color:red" id="msg"/>
+
+         <br/><br/>
+         <h:outputText value="#{Client.gender}" id="test"/>
+         <h:panelGroup id="choose">
+            <c:choose>
+               <c:when test="#{Client.gender=='f'}">
+                  Rozmiar miseczki: <h:inputText value="#{Client.cup}"/><br/>
+                  Obwód klatki: <h:inputText value="#{Client.chest}"/><br/>
+                  Obwód talii: <h:inputText value="#{Client.waist}"/><br/>
+                  Obwód bioder: <h:inputText value="#{Client.hips}"/><br/>
+
+               </c:when>
+               <c:when test="#{Client.gender=='m'}">
+                  Obwód klatki: <h:inputText value="#{Client.chest}"/><br/>
+                  Obwód pasa: <h:inputText value="#{Client.hips}"/><br/>
+               </c:when>
+               <c:otherwise>
+                  Rozmiar miseczki: <h:inputText value="#{Client.cup}"/><br/>
+                  Obwód klatki: <h:inputText value="#{Client.chest}"/><br/>
+                  Obwód talii: <h:inputText value="#{Client.waist}"/><br/>
+                  Obwód bioder: <h:inputText value="#{Client.hips}"/><br/>
+               </c:otherwise>
+            </c:choose>
+         </h:panelGroup>
+         <h:commandButton value="Click me!">
+            <f:ajax execute="@this" render="choose" />
+         </h:commandButton>
+         <h:commandButton value="Podsumowanie" action="step2"/>
+         <ui:include src="commercial.xhtml"/>
+      </h:form>
+   </h:body>
+</html>

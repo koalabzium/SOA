@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+   <h:head>
+      <title>książki</title>
+   </h:head>
+   <h:body>
+      <h3>Filtruj po cenie</h3>
+      <h:form>
+         <h:inputText value="#{Table.minPrice}"/>
+         <h:inputText value="#{Table.maxPrice}"/>
+         <h:commandButton value="filtruj!">
+            <f:ajax execute="@form" listener="#{Table.changeBooksEvent}" render="table" />
+         </h:commandButton>
+      </h:form>
+      <h:form>
+         <br/>
+         <h3>Które kategorie chcesz wyświetlać?</h3> <br/>
+         <h:selectManyCheckbox value="#{Table.categories}">
+            <f:ajax event="change" listener="#{Table.changeBooksEvent}" render="table"/>
+            <f:selectItem itemValue="Fantastyka" itemLabel="Fantastyka" />
+            <f:selectItem itemValue="Romans" itemLabel="Romans" />
+            <f:selectItem itemValue="Dramat" itemLabel="Dramat" />
+         </h:selectManyCheckbox>
+         <h:selectOneMenu value="#{Table.displayedCurrency}">
+            <f:ajax event="change" listener="#{Table.changeCurrency}" render="table"/>
+            <f:selectItem itemValue="oryg" itemLabel="Oryginalna" />
+            <f:selectItem itemValue="PLN" itemLabel="W PLN" />
+         </h:selectOneMenu>
+      </h:form>
+      <br/>
+      <h3>Lista książek</h3>
+      <h:form id="table">
+         <h:dataTable var="p" value="#{Table.books}" cellspacing="6" cellpadding="5">
+            <h:column>
+               <f:facet name="header">Wybrana</f:facet>
+               <h:selectBooleanCheckbox value="#{p.isSelected}"/>
+            </h:column>
+            <h:column>
+               <f:facet name="header">Tytuł</f:facet>
+               <h:outputText value="#{p.title}"/>
+            </h:column>
+            <h:column>
+               <f:facet name="header">Autor</f:facet>
+               <h:outputText value="#{p.author}"/>
+            </h:column>
+            <h:column>
+               <f:facet name="header">Rodzaj</f:facet>
+               <h:outputText value="#{p.type}"/>
+            </h:column>
+            <h:column>
+               <f:facet name="header">Cena</f:facet>
+               <h:outputText value="#{p.price}"/>
+            </h:column>
+            <h:column>
+               <f:facet name="header">Waluta</f:facet>
+               <h:outputText value="#{p.displayedCurrency}"/>
+            </h:column>
+            <h:column>
+               <f:facet name="header">Ilość stron</f:facet>
+               <h:outputText value="#{p.pages}"/>
+            </h:column>
+
+         </h:dataTable>
+         <h:commandButton value="Przelicz cenę">
+            <f:ajax execute="@form" listener="#{Table.countTotalPrice}" render="result" />
+         </h:commandButton>
+      </h:form>
+      <br/>
+      <h:panelGroup id="result">
+         <h:outputText value="Wybrane książki w ilość #{Table.selected} kosztują #{Table.totalPrice} zł."/>
+      </h:panelGroup>
+
+   </h:body>
+</html>

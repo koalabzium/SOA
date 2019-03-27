@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+<h:head><title>Sklep</title></h:head>
+    <h:body>
+        <h:form>
+            Ile jesteś w stanie wydać miesięcznie?
+            <h:selectOneMenu value="#{Client.howMuch}">
+                <f:selectItem itemValue="do 100" itemLabel="do 100"/>
+                <f:selectItem itemValue="100-500" itemLabel="100-500"/>
+                <f:selectItem itemValue="500-1000" itemLabel="500-1000"/>
+                <f:selectItem itemValue="ponad 1000" itemLabel="ponad 1000"/>
+            </h:selectOneMenu> <br/>
+            Jak często kupujesz?
+            <h:selectOneMenu value="#{Client.howOften}">
+                <f:selectItem itemValue="codziennie" itemLabel="codziennie"/>
+                <f:selectItem itemValue="raz  w tygodniu" itemLabel="raz  w tygodniu"/>
+                <f:selectItem itemValue="raz w miesiącu" itemLabel="raz w miesiącu"/>
+                <f:selectItem itemValue="kilka razy w roku" itemLabel="kilka razy w roku"/>
+            </h:selectOneMenu> <br/>
+            W jakich kolorach lubisz ubrania?
+            <h:selectOneMenu value="#{Client.colors}">
+                <f:selectItem itemValue="jasne" itemLabel="jasne"/>
+                <f:selectItem itemValue="ciemne" itemLabel="ciemne"/>
+                <f:selectItem itemValue="szare" itemLabel="szare"/>
+                <f:selectItem itemValue="kolorowe" itemLabel="kolorowe"/>
+            </h:selectOneMenu> <br/>
+            <c:choose>
+                <c:when test="#{Client.gender==null}">
+
+                </c:when>
+                <c:when test="#{Client.gender=='m'}">
+                    Jakie ubrania zazwyczaj kupujesz? <br/>
+                    <h:selectManyCheckbox value="#{Client.what}" required="true">
+                        <f:selectItem itemValue="Spodnie" itemLabel="Spodnie" />
+                        <f:selectItem itemValue="Spodenki" itemLabel="Spodenki" />
+                        <f:selectItem itemValue="Garnitury" itemLabel="Garnitury" />
+                        <f:selectItem itemValue="Koszulki" itemLabel="Koszulki" />
+                        <f:selectItem itemValue="Krawaty" itemLabel="Krawaty" />
+                    </h:selectManyCheckbox>
+                </c:when>
+                <c:when test="#{Client.gender=='o'}">
+                    Jakie ubrania zazwyczaj kupujesz? <br/>
+                    <h:selectManyCheckbox value="#{Client.what}" required="true">
+                        <f:selectItem itemValue="Spodnie" itemLabel="Spodnie" />
+                        <f:selectItem itemValue="Spodenki" itemLabel="Spodenki" />
+                        <f:selectItem itemValue="Garnitury" itemLabel="Garnitury" />
+                        <f:selectItem itemValue="Koszulki" itemLabel="Koszulki" />
+                        <f:selectItem itemValue="Krawaty" itemLabel="Krawaty" />
+                        <f:selectItem itemValue="Żakiety" itemLabel="Żakiety" />
+                        <f:selectItem itemValue="Bluzki" itemLabel="Bluzki" />
+                        <f:selectItem itemValue="Spodniczki" itemLabel="Spodniczki" />
+                        <f:selectItem itemValue="Staniki" itemLabel="Staniki" />
+                    </h:selectManyCheckbox>
+                </c:when>
+                <c:otherwise>
+                    Jakie ubrania zazwyczaj kupujesz? <br/>
+                    <h:selectManyCheckbox value="#{Client.what}" required="true">
+                        <f:selectItem itemValue="Żakiety" itemLabel="Żakiety" />
+                        <f:selectItem itemValue="Bluzki" itemLabel="Bluzki" />
+                        <f:selectItem itemValue="Spodniczki" itemLabel="Spodniczki" />
+                        <f:selectItem itemValue="Spodnie" itemLabel="Spodnie" />
+                        <f:selectItem itemValue="Staniki" itemLabel="Staniki" />
+                    </h:selectManyCheckbox>
+                </c:otherwise>
+            </c:choose>
+            <h:commandButton value="Submit" action="summit"></h:commandButton>
+            <ui:include src="commercial.xhtml"/>
+        </h:form>
+
+
+
+    </h:body>
+</html>
+

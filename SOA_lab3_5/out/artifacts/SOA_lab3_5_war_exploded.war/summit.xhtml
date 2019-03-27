@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<head><title>Sklep</title></head>
+<body>
+    Imie: <h:outputText value="#{Client.name}"/> <br/>
+    Email: <h:outputText value="#{Client.email}"/> <br/>
+    Wiek: <h:outputText value="#{Client.age}"/><br/>
+    Wzrost: <h:outputText value="#{Client.height}"/><br/>
+    Płeć: <h:outputText value="#{Client.gender}"/><br/>
+    Obwód bioder: <h:outputText value="#{Client.hips}"/><br/>
+    Obwód klatki: <h:outputText value="#{Client.chest}"/><br/>
+    Wydajesz: <h:outputText value="#{Client.howMuch}"/>
+    <h:outputText value="#{Client.howOften}"/><br/>
+    Lubisz <h:outputText value="#{Client.colors}"/> kolory.<br/>
+    Kupujesz: <h:outputText value="#{Client.what}"/><br/>
+    <ui:include src="commercial.xhtml"/>
+</body>
+</html>
