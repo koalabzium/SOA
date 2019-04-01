@@ -5,14 +5,5 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
-<f:view>
-    <br/><br/>
-    <h:form>
-        <h:outputLink value="#{commercials.getRandomUrl()}">
-            <f:ajax event="click" listener="#{commercials.clickedCommercial}" render="counter"/>
-            <h:graphicImage value="#{commercials.getRandomImage()}"/>
-        </h:outputLink>
-        <h:outputText id="counter" value="#{commercials.current.counter}"/>
-    </h:form>
-</f:view>
+
 </html>

@@ -6,17 +6,39 @@ import javax.faces.context.ExternalContext;
 import javax.faces.context.FacesContext;
 import javax.faces.event.AjaxBehaviorEvent;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 @ManagedBean(name="commercials")
 @SessionScoped
-public class Commercials {
+public class Commercials implements Serializable {
     private List<Commercial> com;
     private Commercial current;
 
     public Commercials(){}
+
+    public void clickedCom(){
+        current.incrementCounter();
+        System.out.println("1: "+ com.get(0).getCounter());
+        System.out.println("2: " +com.get(1).getCounter());
+        System.out.println("3: "+com.get(2).getCounter());
+        ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
+        try {
+            externalContext.redirect("http://www.mountaindew.com/");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void clickedCommercial(AjaxBehaviorEvent event) {
+        System.out.println("EVENT");
+        current.incrementCounter();
+        System.out.println(com.get(0).getCounter());
+        System.out.println(com.get(1).getCounter());
+        System.out.println(com.get(2).getCounter());
+    }
 
     public void randomize(){
         Random random = new Random();
@@ -29,12 +51,7 @@ public class Commercials {
 
     }
 
-    public void clickedCommercial(AjaxBehaviorEvent event){
-        current.incrementCounter();
-        System.out.println("KASZA " + com.get(0).getCounter());
-        System.out.println("PUDEŁKO " + com.get(1).getCounter());
-        System.out.println("KURCZAK " + com.get(2).getCounter());
-    }
+
 
     public String getRandomImage(){
         if(current==null){
@@ -84,4 +101,6 @@ public class Commercials {
     public void setCom(List<Commercial> com) {
         this.com = com;
     }
+
+
 }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui" xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head></h:head>
+<h:body>
+    <h1>Wybierz siedzenie, które Cie interesuje:</h1><br/>
+
+    <h:form id="table">
+    <h:dataTable var="p" value="#{TheatreController.seats}" cellspacing="6" cellpadding="5">
+        <h:column>
+            <f:facet name="header">Cena</f:facet>
+            <h:outputText value="#{p.price}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Zarezerwowane?</f:facet>
+            <h:outputText value="#{p.reserved}"/>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Rezerwuj</f:facet>
+            <h:button value="#{TheatreController.buy(p)}">Rezerwuj</h:button>
+        </h:column>
+
+    </h:dataTable>
+    </h:form>
+
+    <h:form>
+        <p:outputLabel for="a_input">a: </p:outputLabel>
+        <p:inputNumber id="a_input" value="#{indexView.a}" required="true"/><br/>
+        <p:message for="a_input"/>
+        <p:outputLabel for="b_input">b: </p:outputLabel>
+        <p:inputNumber id="b_input" value="#{indexView.b}" required="true"/><br/>
+        <p:message for="b_input"/>
+        <p:outputLabel for="sum">sum: </p:outputLabel>
+        <p:outputLabel id="sum" value="#{indexView.calculateSum()}"/><br/>
+        <p:commandButton value="Calculate" update="@form" />
+    </h:form>
+</h:body>
+</html>

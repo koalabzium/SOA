@@ -145,6 +145,8 @@ public class Client implements Serializable {
     public void setWhat(List<String> what) {
         this.what = what;
     }
+
+
 }
 
 

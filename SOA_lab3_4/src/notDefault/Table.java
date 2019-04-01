@@ -1,6 +1,7 @@
 package notDefault;
 
 
+import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.event.AjaxBehaviorEvent;
@@ -11,9 +12,10 @@ import java.util.List;
 import java.util.Map;
 
 @ManagedBean(name="Table")
-@SessionScoped
+@ApplicationScoped
 public class Table {
     private List<Book> books;
+
     private double minPrice=0;
     private double maxPrice=1000;
     private List<String> categories = Arrays.asList("Fantastyka", "Romans", "Dramat");

@@ -36,7 +36,6 @@
          <h:message for="height" style="color:red" id="msg"/>
 
          <br/><br/>
-         <h:outputText value="#{Client.gender}" id="test"/>
          <h:panelGroup id="choose">
             <c:choose>
                <c:when test="#{Client.gender=='f'}">
@@ -58,11 +57,19 @@
                </c:otherwise>
             </c:choose>
          </h:panelGroup>
-         <h:commandButton value="Click me!">
-            <f:ajax execute="@this" render="choose" />
-         </h:commandButton>
-         <h:commandButton value="Podsumowanie" action="step2"/>
-         <ui:include src="commercial.xhtml"/>
+         <h:commandButton value="Dalej" action="step2"/>
+
+      </h:form>
+      <br/><br/>
+      <h:form>
+         <h:outputLink value="#{commercials.getRandomUrl()}">
+            <f:ajax event="click" immediate="true" listener="#{commercials.clickedCommercial}"/>
+            <h:graphicImage value="#{commercials.getRandomImage()}"/>
+         </h:outputLink>
+         <h:outputText id="counter" value="#{commercials.current.counter}"/>
+         <h:commandLink action="#{commercials.clickedCom()}">
+            <h:graphicImage value="#{commercials.getRandomImage()}"/>
+         </h:commandLink>
       </h:form>
    </h:body>
 </html>
