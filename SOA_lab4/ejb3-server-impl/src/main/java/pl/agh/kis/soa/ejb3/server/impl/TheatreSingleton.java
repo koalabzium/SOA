@@ -12,13 +12,13 @@ public class TheatreSingleton {
 
     public TheatreSingleton(){
         seats = new ArrayList<Seat>();
-        seats.add(new Seat("tak", 20));
-        seats.add(new Seat("nie", 50));
-        seats.add(new Seat("nie", 50));
-        seats.add(new Seat("nie", 60));
-        seats.add(new Seat("nie", 70));
-        seats.add(new Seat("tak", 80));
-        seats.add(new Seat("tak", 90));
+        seats.add(new Seat("dostępne", 20));
+        seats.add(new Seat("niedostępne", 50));
+        seats.add(new Seat("dostępne", 50));
+        seats.add(new Seat("niedostępne", 60));
+        seats.add(new Seat("dostępne", 70));
+        seats.add(new Seat("dostępne", 80));
+        seats.add(new Seat("dostępne", 90));
     }
 
     @Lock
@@ -33,7 +33,8 @@ public class TheatreSingleton {
 
     @Lock
     public void buyTicket(Seat seat, User user){
-        seat.setReserved("tak");
+        System.out.println("KUPIONE " + seat.getPrice() );
+        seat.setReserved("niedostępne");
         int budget = user.getBudget();
         budget -= seat.getPrice();
         user.setBudget(budget);

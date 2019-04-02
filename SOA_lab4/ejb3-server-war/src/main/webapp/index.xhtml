@@ -3,40 +3,64 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:p="http://primefaces.org/ui" xmlns:f="http://xmlns.jcp.org/jsf/core">
+      xmlns:p="http://primefaces.org/ui" xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:c="http://java.sun.com/jsp/jstl/core">
 
-<h:head></h:head>
+<h:head>
+    <style type="text/css">
+        h1 {color: maroon;}
+        body {padding: auto;}
+        .order-table{
+            border-collapse:collapse;
+        }
+
+        .order-table-header{
+            text-align:center;
+            background:none repeat scroll 0 0 #E5E5E5;
+            border-bottom:1px solid #BBBBBB;
+            padding:16px;
+        }
+
+        .order-table-odd-row{
+            text-align:center;
+            background:none repeat scroll 0 0 #FFFFFF;
+            border-top:1px solid #BBBBBB;
+        }
+
+        .order-table-even-row{
+            text-align:center;
+            background:none repeat scroll 0 0 #F9F9F9;
+            border-top:1px solid #BBBBBB;
+        }
+
+        /* These are my styles! Yay! */
+    </style>
+</h:head>
 <h:body>
-    <h1>Wybierz siedzenie, które Cie interesuje:</h1><br/>
+    <h1>Wybierz miejsce, które Cię interesuje:</h1><br/>
 
     <h:form id="table">
-    <h:dataTable var="p" value="#{TheatreController.seats}" cellspacing="6" cellpadding="5">
+    <h:dataTable var="p" styleClass="order-table"
+                 headerClass="order-table-header"
+                 rowClasses="order-table-odd-row,order-table-even-row"
+                 value="#{TheatreController.seats}">
         <h:column>
             <f:facet name="header">Cena</f:facet>
             <h:outputText value="#{p.price}"/>
         </h:column>
         <h:column>
-            <f:facet name="header">Zarezerwowane?</f:facet>
+            <f:facet name="header">Dostępność</f:facet>
             <h:outputText value="#{p.reserved}"/>
         </h:column>
         <h:column>
             <f:facet name="header">Rezerwuj</f:facet>
-            <h:button value="#{TheatreController.buy(p)}">Rezerwuj</h:button>
+            <h:commandButton action="/payment" value="Rezerwuj" id="payment">
+                <f:actionListener binding="#{TheatreController.buy(p)}" />
+            </h:commandButton>
         </h:column>
 
     </h:dataTable>
     </h:form>
 
-    <h:form>
-        <p:outputLabel for="a_input">a: </p:outputLabel>
-        <p:inputNumber id="a_input" value="#{indexView.a}" required="true"/><br/>
-        <p:message for="a_input"/>
-        <p:outputLabel for="b_input">b: </p:outputLabel>
-        <p:inputNumber id="b_input" value="#{indexView.b}" required="true"/><br/>
-        <p:message for="b_input"/>
-        <p:outputLabel for="sum">sum: </p:outputLabel>
-        <p:outputLabel id="sum" value="#{indexView.calculateSum()}"/><br/>
-        <p:commandButton value="Calculate" update="@form" />
-    </h:form>
 </h:body>
 </html>

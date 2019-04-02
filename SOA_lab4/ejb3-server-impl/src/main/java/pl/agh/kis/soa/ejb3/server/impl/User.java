@@ -6,7 +6,9 @@ import javax.ejb.Stateful;
 public class User {
     private int budget;
 
-    public User() {}
+    public User() {
+        this.budget = 100;
+    }
 
     public User(int budget) {
         this.budget = budget;
