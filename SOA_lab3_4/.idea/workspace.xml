@@ -7,6 +7,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18b4c2da-ef30-4ad3-8233-5d71f81f1e38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab3_5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/ejb3serverimpl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/TestAddBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/TestBeanCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/TheatreSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/Seat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/TestAddBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/TestBeanCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/TheatreSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/Seat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/TestAddBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/TestBeanCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/TheatreSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/Seat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/TestAddBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/TestBeanCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/TheatreSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/src/main/java/pl/agh/kis/soa/IndexView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/src/main/java/pl/agh/kis/soa/TheatreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/src/main/webapp/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/classes/pl/agh/kis/soa/IndexView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/classes/pl/agh/kis/soa/TheatreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/classes/pl/agh/kis/soa/IndexView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/classes/pl/agh/kis/soa/TheatreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/lib/ejb3-server-impl-1.0-SNAPSHOT-client.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/lib/primefaces-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOA_lab4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab3_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/SOA_lab3_4_war_exploded.war/WEB-INF/classes/notDefault/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SOA_lab3_4_war_exploded.war/WEB-INF/classes/notDefault/Table.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SOA_lab3_4/notDefault/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOA_lab3_4/notDefault/Table.class" afterDir="false" />
@@ -34,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="123">
+              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -43,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/notDefault/Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="135">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,7 +184,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553651204704" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SOA_lab3_5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -231,15 +278,15 @@
       <workItem from="1553856777073" duration="714000" />
       <workItem from="1553963215891" duration="799000" />
       <workItem from="1554146910595" duration="1838000" />
+      <workItem from="1554150158970" duration="297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16785000" />
+    <option name="totallyTimeSpent" value="17082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26294553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -281,6 +328,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/styles.css" />
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notDefault/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/notDefault/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -291,23 +355,6 @@
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#935#936#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/notDefault/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
         </state>
       </provider>
     </entry>
