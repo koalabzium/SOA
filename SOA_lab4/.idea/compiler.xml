@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ejb3-server-impl" />
-        <module name="ejb3-server-war" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ejb3-server-impl" target="11" />
+      <module name="ejb3-server-war" target="11" />
+      <module name="lab4_example" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xml:lang="en" lang="en">
+<h:head>
+    <title>Lista zamówień</title>
+</h:head>
+<h:body>
+    <h:form>
+        Wybierz filtrowanie<br/>
+        ID: <br/>
+        <h:inputText value="#{menagedBean.chosenOrder.id}"/><br/>
+        Czytelnik/czka:<br/>
+        <h:selectOneMenu value="#{menagedBean.readerId}">
+            <f:selectItem itemLabel="All" itemValue=""/>
+            <f:selectItems value="#{menagedBean.readers}" var="r"
+                               itemLabel="#{r}" itemValue="#{r.id}" />
+        </h:selectOneMenu><br/>
+        Ksiażka:<br/>
+        <h:selectOneMenu value="#{menagedBean.bookId}">
+            <f:selectItem itemLabel="All" itemValue=""/>
+            <f:selectItems value="#{menagedBean.books}" var="b"
+                       itemLabel="#{b}" itemValue="#{b.id}" />
+        </h:selectOneMenu><br/>
+        Data zamówienia:<br/>
+        <h:inputText value="#{menagedBean.chosenOrder.order_date}">
+            <f:convertDateTime pattern="yyyy-MM-dd"/>
+        </h:inputText><br/>
+        Data oddania:<br/>
+        <h:inputText value="#{menagedBean.chosenOrder.return_date}">
+            <f:convertDateTime pattern="yyyy-MM-dd"/>
+        </h:inputText><br/>
+
+
+        <h:commandButton value="search">
+            <f:ajax execute="@form" render="@form" />
+        </h:commandButton><br/>
+
+        <h:dataTable id="table_1" value="#{menagedBean.orders}" var="b">
+            <h:column>
+                <f:facet name="header">ID</f:facet>
+                #{b.id}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Książka</f:facet>
+                #{b.book}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Czytelnik/czka</f:facet>
+                #{b.reader}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Data zamówienia</f:facet>
+                #{b.order_date}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Data oddania</f:facet>
+                #{b.return_date}
+            </h:column>
+
+            <h:column>
+                <h:commandButton value="Usuń" update="@form" actionListener="#{menagedBean.deleteOrder(b)}"/>
+            </h:column>
+
+            <h:column>
+                <h:commandButton value="Edytuj" action="updateorder">
+                    <f:param name="id" value="#{b.id}" />
+                    <f:param name="book" value="#{b.book}" />
+                    <f:param name="reader" value="#{b.reader}" />
+                    <f:param name="order_date" value="#{b.order_date}" />
+                    <f:param name="return_date" value="#{b.return_date}" />
+                </h:commandButton>
+            </h:column>
+
+        </h:dataTable>
+    </h:form><br/>
+    <h:form>
+        <h:commandButton value="Dodaj nowy" action="addorder"/>
+    </h:form><br/>
+    <h:form>
+        <h:commandButton value="Powrót" action="index"/>
+    </h:form>
+</h:body>
+</html>

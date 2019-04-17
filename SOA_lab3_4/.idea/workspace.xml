@@ -7,91 +7,144 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18b4c2da-ef30-4ad3-8233-5d71f81f1e38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/ejb3serverimpl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/Seat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/TestAddBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/TestBeanCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/TheatreSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/src/main/java/pl/agh/kis/soa/ejb3/server/impl/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/Seat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/TestAddBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/TestBeanCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/TheatreSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/pl/agh/kis/soa/ejb3/server/impl/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/Seat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/TestAddBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/TestBeanCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/TheatreSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT-client/pl/agh/kis/soa/ejb3/server/impl/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/Seat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/TestAddBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/TestBeanCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/TheatreSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT/pl/agh/kis/soa/ejb3/server/impl/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/src/main/java/pl/agh/kis/soa/IndexView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/src/main/java/pl/agh/kis/soa/TheatreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/src/main/webapp/index.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/classes/pl/agh/kis/soa/IndexView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/classes/pl/agh/kis/soa/TheatreController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/classes/pl/agh/kis/soa/IndexView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/classes/pl/agh/kis/soa/TheatreController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/lib/ejb3-server-impl-1.0-SNAPSHOT-client.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/lib/primefaces-7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/index.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_2_5_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Mojarra_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Mojarra_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SOA_lab3_4_war_exploded.war/WEB-INF/classes/notDefault/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SOA_lab3_4_war_exploded.war/WEB-INF/classes/notDefault/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SOA_lab3_4/notDefault/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SOA_lab3_4/notDefault/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notDefault/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notDefault/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SOA_lab3_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SOA_lab3_4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOA_lab3_4/notDefault/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SOA_lab3_4/notDefault/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notDefault/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notDefault/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/.idea/libraries/Mojarra_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/.idea/libraries/Mojarra_2_4_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/out/artifacts/SOA_lab3_5_war_exploded.war/WEB-INF/classes/notDefault/Commercials.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/out/artifacts/SOA_lab3_5_war_exploded.war/WEB-INF/classes/notDefault/Commercials.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/out/artifacts/SOA_lab3_5_war_exploded.war/commercial.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/out/artifacts/SOA_lab3_5_war_exploded.war/commercial.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/out/artifacts/SOA_lab3_5_war_exploded.war/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/out/artifacts/SOA_lab3_5_war_exploded.war/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/out/production/SOA_lab3_5/META-INF/SOA_lab3_5.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/out/production/SOA_lab3_5/notDefault/Commercials.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/out/production/SOA_lab3_5/notDefault/Commercials.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/src/notDefault/Commercials.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/src/notDefault/Commercials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/web/commercial.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/web/commercial.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_5/web/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_5/web/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/META-INF/ejb3-server-impl.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/classes/META-INF/ejb3-server-war.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/lib/ejb3-server-impl-1.0-SNAPSHOT-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/lib/ejb3-server-impl-1.0-SNAPSHOT-client.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOA_lab4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="226">
+              <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/notDefault/Table.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/notDefault/BookRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="30">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c6ebbe2-f001-4e88-b7f6-d521cd8eb64c/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/notDefault/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/notDefault/BooksEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +153,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/notDefault/Book.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/notDefault/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#814#815#0" expanded="true" />
                 <element signature="e#847#848#0" expanded="true" />
@@ -119,8 +181,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="hibernate-configuration-5.2" />
+        <option value="hibernate-main-5.2" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -134,7 +199,18 @@
         <option value="$PROJECT_DIR$/src/notDefault/Book.java" />
         <option value="$PROJECT_DIR$/web/index.xhtml" />
         <option value="$PROJECT_DIR$/src/notDefault/Table.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/notDefault/BookRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/notDefault/BookRepository.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -149,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +242,21 @@
               <item name="SOA_lab3_4" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOA_lab3_4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_lab3_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_lab3_4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_lab3_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_lab3_4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="notDefault" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,21 +268,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="0c6ebbe2-f001-4e88-b7f6-d521cd8eb64c" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553651204704" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554880144628" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SOA_lab3_5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="notDefault" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -279,16 +378,25 @@
       <workItem from="1553963215891" duration="799000" />
       <workItem from="1554146910595" duration="1838000" />
       <workItem from="1554150158970" duration="297000" />
+      <workItem from="1554802779529" duration="5797000" />
+      <workItem from="1554815286978" duration="5344000" />
+      <workItem from="1554834755219" duration="164000" />
+      <workItem from="1554834964043" duration="1455000" />
+      <workItem from="1554836681412" duration="14000" />
+      <workItem from="1554840010273" duration="618000" />
+      <workItem from="1554879043449" duration="968000" />
+      <workItem from="1554882417857" duration="567000" />
+      <workItem from="1554882997438" duration="1476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17082000" />
+    <option name="totallyTimeSpent" value="33485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26294553" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.17484869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -296,9 +404,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Persistence" order="8" sideWeight="0.5013405" side_tool="true" weight="0.1607263" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32841823" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973262" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,7 +418,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32841823" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -318,7 +427,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="JSF" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Database" order="7" weight="0.17686617" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -328,33 +437,82 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/styles.css" />
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/082d3b1a-9292-47a8-9770-b0077435f923/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="-79">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/notDefault/Table.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/notDefault/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c6ebbe2-f001-4e88-b7f6-d521cd8eb64c/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/notDefault/BooksEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/notDefault/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/notDefault/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#814#815#0" expanded="true" />
             <element signature="e#847#848#0" expanded="true" />
             <element signature="e#898#899#0" expanded="true" />
             <element signature="e#935#936#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/notDefault/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -369,7 +527,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -377,7 +534,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Invalid</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -412,12 +569,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SOA_lab3_4</last-edited>
+          <last-edited>Hibernate|SOA_lab3_4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xml:lang="en" lang="en">
+<head>
+    <title>Statystyki</title>
+</head>
+<body>
+<h:form>
+    Oto najpopularniejsze książki: <br/>
+        <h:dataTable id="table_1" value="#{topBooksBean.topBooks}" var="b">
+            <h:column>
+                <f:facet name="header">ID</f:facet>
+                #{b.id}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Tytuł</f:facet>
+                #{b.title}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">Autor(ka)</f:facet>
+                #{b.author}
+            </h:column>
+        </h:dataTable><br/>
+        <h:commandButton value="Powrót" action="/index"/>
+</h:form>
+</body>
+</html>

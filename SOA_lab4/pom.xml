@@ -10,6 +10,7 @@
     <modules>
         <module>ejb3-server-impl</module>
         <module>ejb3-server-war</module>
+        <module>ejb-server-api</module>
     </modules>
     <packaging>pom</packaging>
 
