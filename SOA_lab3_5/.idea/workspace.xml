@@ -7,31 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1d0aa06-8baf-44b2-ae0b-23b7eda74085" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_4/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_4/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_4/.idea/libraries/Hibernate_5_4_2_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_4/.idea/libraries/JPA_2_0_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_4/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SOA_lab3_4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_4/.idea/libraries/Mojarra_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_4/.idea/libraries/Mojarra_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_4/SOA_lab3_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab3_4/SOA_lab3_4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_4/out/production/SOA_lab3_4/notDefault/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_4/out/production/SOA_lab3_4/notDefault/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_4/src/notDefault/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab3_4/src/notDefault/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Mojarra_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Mojarra_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab4/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab4/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/classes/META-INF/ejb3-server-impl.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-impl/target/ejb3-server-impl-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/classes/META-INF/ejb3-server-war.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/lib/ejb3-server-impl-1.0-SNAPSHOT-client.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/ejb3-server-war/target/ejb3-server-war/WEB-INF/lib/ejb3-server-impl-1.0-SNAPSHOT-client.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SOA_lab4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOA_lab4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookLibrary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookLibrary/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="-470">
               <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
@@ -64,10 +40,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/commercial.xhtml">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="90">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -180,10 +166,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="464" />
-    <option name="y" value="-21" />
-    <option name="width" value="768" />
-    <option name="height" value="826" />
+    <option name="x" value="833" />
+    <option name="y" value="25" />
+    <option name="width" value="767" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -191,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,13 +203,18 @@
             </path>
             <path>
               <item name="SOA_lab3_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOA_lab3_5" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOA_lab3_5" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -349,16 +341,18 @@
       <workItem from="1554802754700" duration="23000" />
       <workItem from="1554879193311" duration="1001000" />
       <workItem from="1554882987788" duration="6000" />
+      <workItem from="1556950606946" duration="760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49060000" />
+    <option name="totallyTimeSpent" value="49820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910873" visible="true" weight="0.15467384" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910873" visible="true" weight="0.15669133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -368,7 +362,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24932976" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24932976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35924932" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,27 +391,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/commercial.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -483,6 +456,28 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-470">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
